@@ -1,0 +1,47 @@
+		@import url(http://fonts.googleapis.com/css?family=ubuntu);
+		body {
+			background-color: #39414A;
+			font-family: 'Ubuntu', Tahoma, sans-serif;
+			font-size: 24px;
+			color: #EFFFCD;
+			text-shadow: #000000 3px 3px 5px;
+			padding: 50px;
+		}
+		a {
+			font-size: 125%;
+			color: #339999;
+			text-decoration: none;
+		}
+		a:hover {
+			color: #33CC99;
+		}
+		a.fakelink {
+			color: #009966;
+			border-bottom: 1px dashed #009966;
+		}
+		a.fakelink:hover {
+			color: #33CC99;
+			border-bottom: none;
+		}
+		div {
+			margin: 10px;
+		}
+		div.left {
+			width: 500px;
+			float: left;
+		}
+		div.right {
+			margin-left: 650px;
+			margin-top: 200px;
+			display: none;
+		}
+		div.right a {
+			font-size: 100%;
+		}
+		.normal {
+			font-size: 200%;
+			color: #D55782;
+		}
+		.meaculpa {
+			font-size:12px
+		}
