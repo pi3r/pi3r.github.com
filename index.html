@@ -10,87 +10,88 @@
 	<link rel="stylesheet" href="css/style.css">
 </head> 
 <body> 
-<div class="left"> 
-	<p> 
-		Hi, my name is <a class="fakelink" href="#" title="me">Pierre Nespo</a>, i'm 24 and i live in <a target="_blank" href="http://maps.google.fr/maps?q=paris%2C%20france">Paris, France</a>.
-	</p>  
-	<p> 
-		I'm a master final year student at <a target="_blank" href="http://www.epitech.eu/">Epitech</a>.
-	</p> 
-	<p> 
-		I am very excited about new technologies, especially <a class="fakelink" title="opensource" href="#">open-source ones</a> in the web development field.
-	</p>
-<p>
-What i've done ? <a class="fakelink" title="school" href="#">@school</a>, <a class="fakelink" title="work" href="#">@work</a>
-</p>
-  
-<p>
-Feel free to <a href="mailto:contact@p3on.fr">contact me</a>.
-</p>
-<p>
-May the force be with you :)
-</p>
-  <a href="http://www.fsf.org/fb"><img width="250" src="http://static.fsf.org/nosvn/no-facebook-me.png" alt="Not f'd — you won't find me on Facebook" /></a>
-<p class="meaculpa">
-* Design <strike>stolen</strike> greatly inspired from <a href="http://www.glop.org/" target="_blank">here</a>.
-</p>
-</div> 
-<div id="me" class="right">
-<ul>
-<li><a target="_blank" href="cv.pdf">Curriculum vitae</a> <img src="img/fr.png"/></li>
-<li><a target="_blank" href="http://github.com/pi3r">Github</a></li>
-<li><a target="_blank" href="http://www.codeschool.com/users/6687">Code School</a></li>
-</ul>
-</div>
-<div id="school" class="right"> 
-	Applications developed as part of my studies :
-	<ul> 
-		<li><a target="_blank" href="https://github.com/livejamming/Live-Jamming">Live-Jamming</a> : Play real, Play live ! </li> 
-		<li><a href="http://www.dailymotion.com/video/x65zy5_ultra-paintball_videogames" target="_blank">Ultra-Paintball</a> : Video game based on the cube engine.</li>
-	</ul> 
-</div> 
-<div id="work" class="right"> 
-	Work i've done :
-	<ul> 
-		<li><a href="http://www.bitwiin.com" target="_blank">BiTWiiN.com</a> : Total overhaul of the website (as a CTO).</li> 
-	</ul> 
-</div> 
-<div id="opensource" class="right">
-Technologies i like to work with :
-<ul> 
-<li><a href="http://rubyonrails.org/" target="_blank">Ruby On Rails</a>/<a href="http://cakephp.org/" target="_blank">CakePHP</a>.</li>
-<li><a href="http://jquery.com/" target="_blank">jQuery</a>.</li> 
-<li><a href="http://www.redmine.org/" target="_blank">Redmine</a>.</li>
-<li><a href="http://www.linux.org/" target="_blank">Linux</a>.</li>
-<li><a href="http://git-scm.com/" target="_blank">Git</a>/<a href="http://subversion.tigris.org/" target="_blank">SVN</a></li>
-<li><a href="http://www.apache.org/" target="_blank">Apache</a>/<a href="http://nginx.org/" target="_blank">Nginx</a></li>
-<li><a href="http://www.postfix.org/" target="_blank">Postfix</a>.</li>
-<li><a href="http://qt.nokia.com/products/" target="_blank">QT</a>.</li>
-<li>...</li>
-	</ul> 
-</div>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-<script>!window.jQuery && document.write('<script src="js/jquery-1.4.2.min.js"><\/script>')</script>
-<script type="text/javascript">
-$(function(){
-$('.fakelink').click(function(){
-if($('#'+$(this).attr('title')).length){
-	$('.right').hide();
-	$('#'+$(this).attr('title')).show();
-}
-});
-});
-</script>
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-18496882-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
+  <div class="left"> 
+    <p> 
+      Hi, my name is <a class="fakelink" href="#" title="me">Pierre Nespo</a>, i'm 24 and i live in <a target="_blank" href="http://maps.google.fr/maps?q=paris%2C%20france">Paris, France</a>.
+    </p>  
+    <p> 
+      I'm a master final year student at <a target="_blank" href="http://www.epitech.eu/">Epitech</a>.
+    </p> 
+    <p> 
+      I am very excited about new technologies, especially <a class="fakelink" title="opensource" href="#">open-source ones</a> in the web development field.
+    </p>
+    <p>
+      What i've done ? <a class="fakelink" title="school" href="#">@school</a>, <a class="fakelink" title="work" href="#">@work</a>
+    </p>
+    
+    <p>
+      Feel free to <a href="mailto:contact@p3on.fr">contact me</a>.
+    </p>
+    <p>
+      May the force be with you :)
+    </p>
+    <a href="http://www.fsf.org/fb"><img width="250" src="http://static.fsf.org/nosvn/no-facebook-me.png" alt="Not f'd — you won't find me on Facebook" /></a>
+    <p class="meaculpa">
+      * Design <strike>stolen</strike> greatly inspired from <a href="http://www.glop.org/" target="_blank">here</a>.
+    </p>
+  </div> 
+  <div id="me" class="right">
+    <ul>
+      <li><a target="_blank" href="docs/cv.pdf">Curriculum vitae</a> <img src="img/fr.png"/></li>
+      <li><a target="_blank" href="http://github.com/pi3r">Github</a></li>
+      <li><a target="_blank" href="http://www.codeschool.com/users/6687">Code School</a></li>
+    </ul>
+  </div>
+  <div id="school" class="right"> 
+    Applications developed as part of my studies :
+    <ul> 
+      <li><a target="_blank" href="https://github.com/livejamming/Live-Jamming">Live-Jamming</a> : Play real, Play live ! </li> 
+      <li><a href="http://www.dailymotion.com/video/x65zy5_ultra-paintball_videogames" target="_blank">Ultra-Paintball</a> : Video game based on the cube engine.</li>
+    </ul> 
+  </div> 
+  <div id="work" class="right"> 
+    Work i've done :
+    <ul> 
+      <li><a href="http://www.bitwiin.com" target="_blank">BiTWiiN.com</a> : Total overhaul of the website (as a CTO) /Cakephp.</li> 
+      <li><a href="http://www.campingavenue.com" target="_blank">CampingAvenue.com</a> /Rails.</li> 
+    </ul> 
+  </div> 
+  <div id="opensource" class="right">
+    Technologies i like to work with :
+    <ul> 
+      <li><a href="http://rubyonrails.org/" target="_blank">Ruby On Rails</a>/<a href="http://cakephp.org/" target="_blank">CakePHP</a>.</li>
+      <li><a href="http://jquery.com/" target="_blank">jQuery</a>.</li> 
+      <li><a href="http://www.redmine.org/" target="_blank">Redmine</a>.</li>
+      <li><a href="http://www.linux.org/" target="_blank">Linux</a>.</li>
+      <li><a href="http://git-scm.com/" target="_blank">Git</a>/<a href="http://subversion.tigris.org/" target="_blank">SVN</a></li>
+      <li><a href="http://www.apache.org/" target="_blank">Apache</a>/<a href="http://nginx.org/" target="_blank">Nginx</a></li>
+      <li><a href="http://www.postfix.org/" target="_blank">Postfix</a>.</li>
+      <li><a href="http://qt.nokia.com/products/" target="_blank">QT</a>.</li>
+      <li>...</li>
+    </ul> 
+  </div>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script>!window.jQuery && document.write('<script src="js/jquery-1.4.2.min.js"><\/script>')</script>
+    <script type="text/javascript">
+      $(function(){
+      $('.fakelink').click(function(){
+      if($('#'+$(this).attr('title')).length){
+      $('.right').hide();
+      $('#'+$(this).attr('title')).show();
+      }
+      });
+      });
+    </script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-18496882-1']);
+      _gaq.push(['_trackPageview']);
+      
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
 </body> 
 </html> 
