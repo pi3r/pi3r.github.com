@@ -6,3 +6,8 @@
 .lead-small {
   font-size: 20px;
 }
+
+.btn-fat {
+  padding: 14px 19px;
+  font-size: 23.5px;
+}
