@@ -4,10 +4,14 @@
 }
 
 .lead-small {
-  font-size: 20px;
+  font-size: 26px;
 }
 
 .btn-fat {
   padding: 14px 19px;
   font-size: 26px;
+}
+
+.core-values {
+  font-size: 15px;
 }
